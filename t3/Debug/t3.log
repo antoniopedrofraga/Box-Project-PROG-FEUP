@@ -1,0 +1,93 @@
+﻿Build started 12/02/2015 18:19:37.
+     1>Project "C:\Users\Pedro\Documents\Visual Studio 2013\Projects\t3\t3\t3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Box.cpp Channel.cpp Program.cpp main.cpp
+         main.cpp
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\program.h(159): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\movie.h(7): error C2059: syntax error : 'namespace'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\movie.h(7): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(12): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\main.cpp(15): error C2059: syntax error : 'namespace'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\main.cpp(15): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\main.cpp(84): error C2535: 'void Channel::firstscreen(void)' : member function already defined or declared
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(17) : see declaration of 'Channel::firstscreen'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\main.cpp(130): fatal error C1075: end of file found before the left brace '{' at 'c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.h(12)' was matched
+         Program.cpp
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\program.h(159): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\program.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\program.cpp(52): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\program.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+         Channel.cpp
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\program.h(159): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\movie.h(7): error C2059: syntax error : 'namespace'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\movie.h(7): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(12): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.cpp(11): error C2535: 'Channel::Channel(std::string)' : member function already defined or declared
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.h(22) : see declaration of 'Channel::Channel'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.cpp(16): error C2535: 'std::vector<Program,std::allocator<_Ty>> Channel::retPrograms(void)' : member function already defined or declared
+                 with
+                 [
+                     _Ty=Program
+                 ]
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.h(16) : see declaration of 'Channel::retPrograms'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.cpp(20): error C2535: 'void Channel::setChannel(Program)' : member function already defined or declared
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.h(17) : see declaration of 'Channel::setChannel'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.cpp(23): error C2535: 'void Channel::setProgram(std::vector<Program,std::allocator<_Ty>>)' : member function already defined or declared
+                 with
+                 [
+                     _Ty=Program
+                 ]
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.h(18) : see declaration of 'Channel::setProgram'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.cpp(27): fatal error C1075: end of file found before the left brace '{' at 'c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.h(12)' was matched
+         Box.cpp
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\program.h(159): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\movie.h(7): error C2059: syntax error : 'namespace'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\movie.h(7): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(12): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(11): error C2059: syntax error : 'namespace'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(11): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(13): error C2535: 'void Channel::firstscreen(void)' : member function already defined or declared
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(17) : see declaration of 'Channel::firstscreen'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(24): error C3254: 'Channel' : class contains explicit override '{ctor}' but does not derive from an interface that contains the function declaration
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(24): error C2838: '{ctor}' : illegal qualified name in member declaration
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(28): error C3254: 'Channel' : class contains explicit override 'vecchan' but does not derive from an interface that contains the function declaration
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(28): error C2838: 'vecchan' : illegal qualified name in member declaration
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(61): error C2535: 'bool Channel::repeated(std::string,std::vector<std::string,std::allocator<_Ty>>,int)' : member function already defined or declared
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(16) : see declaration of 'Channel::repeated'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(71): error C3254: 'Channel' : class contains explicit override 'todate' but does not derive from an interface that contains the function declaration
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(71): error C2838: 'todate' : illegal qualified name in member declaration
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(79): error C2535: 'std::vector<Program,std::allocator<_Ty>> Channel::bublesortprog(std::vector<_Ty,std::allocator<_Ty>>)' : member function already defined or declared
+                 with
+                 [
+                     _Ty=Program
+                 ]
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(14) : see declaration of 'Channel::bublesortprog'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(94): error C2535: 'void Channel::clrscr(void)' : member function already defined or declared
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(15) : see declaration of 'Channel::clrscr'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(189): error C2535: 'void Channel::firstscreen(void)' : member function already defined or declared
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(17) : see declaration of 'Channel::firstscreen'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(639): error C2535: 'int Channel::progbydayall(Channel::Box &)' : member function already defined or declared
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(19) : see declaration of 'Channel::progbydayall'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(1190): error C2535: 'void Channel::menu(Channel::Box &)' : member function already defined or declared
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(14) : see declaration of 'Channel::menu'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(1239): error C2535: 'bool Channel::typeisonvec(std::vector<std::string,std::allocator<_Ty>>,std::string)' : member function already defined or declared
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.h(15) : see declaration of 'Channel::typeisonvec'
+     1>c:\users\pedro\documents\visual studio 2013\projects\t3\t3\box.cpp(1248): fatal error C1075: end of file found before the left brace '{' at 'c:\users\pedro\documents\visual studio 2013\projects\t3\t3\channel.h(12)' was matched
+         Generating Code...
+     1>Done Building Project "C:\Users\Pedro\Documents\Visual Studio 2013\Projects\t3\t3\t3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.16

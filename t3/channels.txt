@@ -1,0 +1,51 @@
+channel 1
+program 1
+A
+61
+Saturday
+10
+50
+program 8
+C
+61
+Saturday
+21
+00
+program 2
+B
+21
+Monday
+20
+21
+program 3
+C
+31
+Wendnesday
+10
+20
+channel 2
+program 4
+A
+61
+Saturday
+10
+10
+program 5
+D
+21
+Monday
+20
+21
+program 6
+E
+21
+Monday
+14
+20
+channel 3
+program 7
+C
+61
+Saturday
+23
+00

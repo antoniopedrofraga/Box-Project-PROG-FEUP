@@ -1,0 +1,24 @@
+channel 1
+Saturday
+10
+50
+channel 1
+Monday
+20
+21
+channel 2
+Monday
+20
+21
+channel 3
+Saturday
+23
+0
+channel 1
+Saturday
+21
+0
+channel 1
+Wendnesday
+10
+20

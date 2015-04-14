@@ -1,0 +1,11 @@
+-Fazer o MovieClub, seenMovie, RecordList
+
+-Quando clicas no programa, perguntar se quer ser gravado
+
+1º retornar programa em Program.h
+2º criar procedimento bool para ver se o programa está na lista de gravações;
+3º se não estiver, perguntar se quer que este programa seja gravado em printproginfo
+
+Porque não?
+
+Set record flag a 1 se está antes e está na lista de gravações
